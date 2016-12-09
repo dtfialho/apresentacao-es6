@@ -1,9 +1,17 @@
 section
-  pre
-    code
-      | var linearMultHash = function(n, HASH_TABLE_SIZE) {
-      |   var A = 0.642384983213213;
-      |   var value = n * A;
-      |   value = value * (int)value;
-      |   return value * HASH_TABLE_SIZE;
-      |}
+	h4 let
+	p Let permite que sejam criadas declarações limitadas a um bloco, que é chamado de escopo de bloco.
+	pre
+		code
+			| var valor = 1;
+			| {
+			| 	let valor = 2;
+			|   console.log(valor); // 2
+			| }
+			| console.log(valor); // 1
+
+	h4 const
+	p Utilizado para declarar constantes
+	pre
+		code
+			| const PI = 3.1415;

@@ -1,0 +1,19 @@
+section
+	h4 Parâmetros default
+	pre
+		code
+			| function(nome, idade) {
+			| 	if(!nome) {
+			| 		nome = "Diego";
+			| 	}
+			| 	if(!idade) {
+			| 		idade = 26;
+			| 	}
+			| 
+			|	console.log("Olá eu sou " + nome + ", tenho " + idade + " anos!");
+			| }
+	pre.fragment
+		code
+			| function(nome = "Diego", idade = 26) {
+			| 	console.log(`Olá eu sou ${nome}, tenho ${idade} anos!`);
+			| }

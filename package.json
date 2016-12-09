@@ -1,18 +1,15 @@
 {
-  "name": "quayly-presenter",
+  "name": "apresentacao-es6",
   "version": "1.0.0",
-  "description": "A boilerplate to create presentations using Reveal.JS, Gulp and more",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A presentation about ecmascript 6, it's features and integration with gulp.",
   "keywords": [
     "reveal",
     "gulp",
     "stylus",
-    "highlight"
+    "highlight",
+    "quality-presenter"
   ],
-  "author": "Willian Justen de Vasconcellos",
+  "author": "Diego T. Fialho",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.4.0",

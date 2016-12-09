@@ -1,0 +1,16 @@
+section
+	h4 Spread operator
+	pre
+		code
+			| function somaNumeros(a, b, c) {
+			| 	console.log(a + b + c);
+			| }
+			| var nums = [1, 2, 3];
+			| somaNumeros(nums[0], nums[1], nums[2]); //6
+	pre.fragment
+		code
+			| somaNumeros(...nums); //6
+	pre.fragment
+		code
+			| var carnes = ['bacon', 'bife'];
+			| var comidas = ['maçã', ...carnes, 'arroz'];
