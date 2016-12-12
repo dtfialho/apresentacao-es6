@@ -1,0 +1,14 @@
+section
+	h4 Generators
+	pre
+		code
+			| function *numerosInfinitos() {
+			| 	var n = 1;
+			| 	while(true) {
+			| 		yield n++;
+			| 	}
+			| }
+			| 
+			| var numbers = numerosInfinitos();
+			| numbers.next(); //{value: 1, done: false}
+			| numbers.next(); //{value: 2, done: false}
